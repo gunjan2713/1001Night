@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Video Website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Linking google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!-- to add awesome fonts for cross mark, and other logos for social media handles-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <!-- Name of the Film -->
+        <h1>ALADDIN - A CONTEMPORARY PLAY</h1>
+        <nav>
+            <a href="#home-section">Home</a>
+            <a href="#video-container">Project</a>
+            <a href="#directors-section">Team</a>
+        </nav>
+    </header>
+
+    <section id="home-section" class="home-section">
+        <div class="movie-details">
+            <img src="bg.png" alt="Movie Poster">
+            <div class="movie-info">
+                <!-- Gap between the lines -->
+                <p>   <br>    <br>    <br>     <br>   </p>
+                <h2>#2 in Movies Today</h2>
+                <p>2023 5m 9sec</p>
+                <p>Genres: Suspense/Adventure/Romance</p>
+                <p>Language:English</p>
+                <p>    <br>  </p>
+                <!-- Description -->
+                <p> 
+                    Embark on a captivating journey with 'Aladdin - A Contemporary Play' a tale of conflicting desires and unexpected connections. Follow Aladdin's pursuit of riches and the Jinni's steadfast refusal to yield to selfish whims. As their bond deepens, a romantic subplot intertwines with a quest for identity, adding layers of mystery and emotional depth to this enchanting story.</p>
+                <a href="#video-container" class="btn">Play</a>
+                <p>              <br>   <br>        <br>        <br>     <br>       </p>
+            </div>
+        </div>
+        
+    </section>
+    
+    </section>
+    
+    <div id="video-container">
+        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/894946656?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="My Movie.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+        <script src="https://player.vimeo.com/api/player.js"></script>
+
+        <div id="question-overlay">
+            <!-- <h2>Discussion Question</h2> -->
+            <p>Why do you think the Jinni refused to comply with Aladdin's request to capture the princess? </p>
+            <button id="yes-button" onclick="resumeVideo('yes')">1-Likely due to empathy. Having been kidnapped, she understood the princess's potential suffering and chose not to harm her.</button>
+            <button id="no-button" onclick="resumeVideo('no')">2-Because she developed feelings for Aladdin</button>
+            
+        </div>
+    </div>
+    
+
+    <section id="directors-section" class="directors-section">
+        
+        <h2>Production Team</h2>
+        <div class="row">
+            <div class="cast-col">
+                <div class="member-box">
+                    <!-- Name of the crew -->
+                    <h3>Tarek Baraki</h3>
+                    <!-- A very short intro of the crew -->
+                    <p>Political Science Major</p>
+                    <p>Contact: <a href="mailto:tarek@gmail.com"><i class="fas fa-envelope"></i></a></p>
+                </div>
+                <!-- logo -->
+                <img class="human-logo" src="logo.png" alt="Director 1 Logo">
+            </div>
+            <div class="cast-col">
+                <div class="member-box">
+                    <!-- Name of the crew -->
+                    <h3>Gunjan</h3>
+                    <!-- A very short intro of the crew -->
+                    <p>Interactive Media and Computer Science major </p>
+                    <p>Contact: <a href="mailto:gunjan@gmail.com"><i class="fas fa-envelope"></i></a></p>
+                </div>
+                <!-- logo-->
+                <img class="human-logo" src="logo.png" alt="Director 1 Logo">
+            </div>
+            <div class="cast-col">
+                <div class="member-box">
+                    <!-- Name of the crew -->
+                    <h3>Shaikha</h3>
+                    <!-- A very short intro of the crew -->
+                    <p>Electrical Engineering Major </p> 
+                    <p>Contact: <a href="mailto:Shaikha@gmail.com"><i class="fas fa-envelope"></i></a></p>
+                </div>
+                <!-- logo -->
+                <img class="human-logo" src="logo.png" alt="Director 1 Logo">
+            </div>
+            <div class="cast-col">
+                <div class="member-box">
+                    <!-- Name of the crew -->
+                    <h3>Prakrati</h3>
+                    <!-- A very short intro of the crew -->
+                    <p>Computer Science major </p>
+                    <p>Contact: <a href="mailto:prakrati@gmail.com"><i class="fas fa-envelope"></i></a></p>
+                </div>
+                <!-- logo -->
+                <img class="human-logo" src="logo.png" alt="Director 1 Logo">
+            </div>
+            <div class="cast-col">
+                <div class="member-box">
+                    <!-- Name of the crew -->
+                    <h3>Shahram</h3>
+                    <!-- A very short intro of the crew -->
+                    <p>Computer Science major </p>
+                    <p>Contact: <a href="mailto:shahram@gmail.com"><i class="fas fa-envelope"></i></a></p>
+                </div>
+                <!-- logo -->
+                <img class="human-logo" src="logo.png" alt="Director 1 Logo">
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+
+
+</body>
+</html>
